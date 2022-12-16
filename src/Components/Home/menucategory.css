@@ -1,0 +1,49 @@
+.sandwichMenuCategory{
+    display: none;/*normal pc/laptop/tv ekranlari ucun*/
+}
+@media(max-width:990px){   
+.sandwichMenuCategory{
+    width: 100%;
+    height: /*250*/330px;
+    background-color: /*aquamarine*/olivedrab;
+    position: absolute;
+    top: 200px;
+    z-index: 1;
+    display: none;
+    text-align: center;
+}
+.sandwichMenuCategory p{
+    width: 100%;
+    height: 50px;
+    color: #222A35;
+}
+.sandwichMenuCategory a{
+    text-decoration: none;
+}
+.sandwichMenuCategory a :hover{
+    color: whitesmoke;
+}
+}
+@media(max-width:768px){
+.sandwichMenuCategory{
+    width: 100%;
+    height: /*250px*/330px;
+    background-color: /*aquamarine*/olivedrab;
+    position: absolute;
+    top: 200px;
+    z-index: 1;
+    display: none;
+    text-align: center;
+}
+.sandwichMenuCategory p{
+    width: 100%;
+    height: 50px;
+    color: #222A35;
+}
+.sandwichMenuCategory a{
+    text-decoration: none;
+}
+.sandwichMenuCategory a :hover{
+    color: whitesmoke;
+}
+}

@@ -1,0 +1,712 @@
+.videoBody{
+    width: 100%;
+    /*height: 3000px;*/
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.videoChart{
+    position: relative;
+    width: 100%;
+    height: /*420*/1580px;
+    background-color: aquamarine;
+}
+.videoChart iframe{
+    position: absolute;
+    width: /*420*/854px;
+    height: 480px;
+    left: calc(50% - 427px);  /*(100% - 854px)/2*/
+    top: 70px;
+}
+.videoChart .title{
+    background-color: green;
+    font-size: 28px;
+    height: 42px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 14px;/*(70px-42px)/2*/
+    left: 50px;
+    width: calc(100% - 152px);/*142+10*/
+}
+.videoChart .status{
+    width: 42px;
+    height: 42px;
+    background: olivedrab;
+    border:1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 14px;
+    right: 50px;
+}
+.sual1{
+    background-color: whitesmoke;
+    width: 600px;
+    height: /*280px*/auto;
+    position: absolute;
+    top: 570px;/*470+80+20*/
+    left: calc(50% - 300px);/*(100% - 600px)/2*/
+    border-radius: 20px;
+}
+.sual1 .a,.b,.c{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    padding-top: 2px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.sual1 div{
+    /*background-color: yellow;*/
+    display: flex;
+    margin-top: 2px;
+    /*border-radius: 10px;*/
+    border: 1px solid #222A35;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+.sual1 .answera,.answerb,.answerc{
+    background-color: cadetblue;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+.sual1 .problem{
+    /*background-color: orangered;*/
+    height: 50px;
+    width: 580px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.sual2{
+    background-color: whitesmoke;
+    width: 600px;
+    height: /*280px*/auto;
+    position: absolute;
+    top: 900px;/*470+80+20*/
+    left: calc(50% - 300px);/*(100% - 600px)/2*/
+    border-radius: 20px;
+}
+.sual2 .a,.b,.c{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    padding-top: 2px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.sual2 div{
+    /*background-color: yellow;*/
+    display: flex;
+    margin-top: 2px;
+    /*border-radius: 10px;*/
+    border: 1px solid #222A35;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+.sual2 .answera,.answerb,.answerc{
+    background-color: cadetblue;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+.sual2 .problem{
+    /*background-color: orangered;*/
+    height: 50px;
+    width: 580px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sual3{
+    background-color: whitesmoke;
+    width: 600px;
+    height: /*280px*/auto;
+    position: absolute;
+    top: 1230px;/*470+80+20*/
+    left: calc(50% - 300px);/*(100% - 600px)/2*/
+    border-radius: 20px;
+}
+.sual3 .a,.b,.c{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    padding-top: 2px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.sual3 div{
+    /*background-color: yellow;*/
+    display: flex;
+    margin-top: 2px;
+    /*border-radius: 10px;*/
+    border: 1px solid #222A35;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+.sual3 .answera,.answerb,.answerc{
+    background-color: cadetblue;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+.sual3 .problem{
+    /*background-color: orangered;*/
+    height: 50px;
+    width: 580px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+@media(max-width:891px){
+    .videoBody{
+        width: 100%;
+        /*height: 3000px;*/
+        position: relative;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    .videoChart{
+        position: relative;
+        width: 100%;
+        height: /*420*/1500px;
+        background-color: #222A35;
+    }
+    .videoChart iframe{
+        position: absolute;
+        width: /*420*/640px;
+        height: 360px;
+        left: calc(50% - 320px);  /*(100% - 640px)/2*/
+        top: 70px;
+    }
+    .videoChart .title{
+        background-color: green;
+        font-size: 28px;
+        height: 42px;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top: 14px;/*(70px-42px)/2*/
+        left: 50px;
+        width: calc(100% - 152px);/*142+10*/
+    }
+    .videoChart .status{
+        width: 42px;
+        height: 42px;
+        background: olivedrab;
+        border:1px solid black;
+        border-radius: 50%;
+        position: absolute;
+        top: 14px;
+        right: 50px;
+    }
+    .sual1{
+        background-color: whitesmoke;
+        width: 500px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: 500px;/*470+80+20*/
+        left: calc(50% - 250px);/*(100% - 500px)/2*/
+        border-radius: 20px;
+    }
+    .sual1 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual1 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual1 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual1 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 480px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+
+    .sual2{
+        background-color: whitesmoke;
+        width: 500px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: 830px;/*470+80+20*/
+        left: calc(50% - 250px);/*(100% - 500px)/2*/
+        border-radius: 20px;
+    }
+    .sual2 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual2 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual2 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual2 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 480px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .sual3{
+        background-color: whitesmoke;
+        width: 500px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: 1160px;/*470+80+20*/
+        left: calc(50% - 250px);/*(100% - 500px)/2*/
+        border-radius: 20px;
+    }
+    .sual3 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual3 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual3 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual3 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 480px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media(max-width:675px){
+    .videoBody{
+        width: 100%;
+        /*height: 3000px;*/
+        position: relative;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    .videoChart{
+        position: relative;
+        width: 100%;
+        height: /*420*/1420px;
+        background-color: #222A35;
+    }
+    .videoChart iframe{
+        position: absolute;
+        width: /*420*/426px;
+        height: 240px;
+        left: calc(50% - 213px);  /*(100% - 426px)/2*/
+        top: 70px;
+    }
+    .videoChart .title{
+        background-color: green;
+        font-size: 28px;
+        height: 42px;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top: 14px;/*(70px-42px)/2*/
+        left: 50px;
+        width: calc(100% - 152px);/*142+10*/
+    }
+    .videoChart .status{
+        width: 42px;
+        height: 42px;
+        background: olivedrab;
+        border:1px solid black;
+        border-radius: 50%;
+        position: absolute;
+        top: 14px;
+        right: 50px;
+    }
+    .sual1{
+        background-color: whitesmoke;
+        width: 400px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: 430px;/*470+80+20*/
+        left: calc(50% - 200px);/*(100% - 400px)/2*/
+        border-radius: 20px;
+    }
+    .sual1 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual1 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual1 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual1 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 380px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    
+    .sual2{
+        background-color: whitesmoke;
+        width: 400px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: 760px;/*470+80+20*/
+        left: calc(50% - 200px);/*(100% - 400px)/2*/
+        border-radius: 20px;
+    }
+    .sual2 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual2 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual2 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual2 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 380px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .sual3{
+        background-color: whitesmoke;
+        width: 400px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: 1090px;/*470+80+20*/
+        left: calc(50% - 200px);/*(100% - 400px)/2*/
+        border-radius: 20px;
+    }
+    .sual3 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual3 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual3 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual3 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 380px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:467px){
+    .videoBody{
+        width: 100%;
+        /*height: 3000px;*/
+        position: relative;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    .videoChart{
+        position: relative;
+        width: 100%;
+        height: /*420*/1340px;
+        background-color: whitesmoke;
+    }
+    .videoChart iframe{
+        position: absolute;
+        width: /*420*/270px;
+        height: 178px;
+        left: calc(50% - 135px);  /*(100% - 270px)/2*/
+        top: 70px;
+    }
+    .videoChart .title{
+        background-color: green;
+        font-size: 28px;
+        height: 42px;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top: 14px;/*(70px-42px)/2*/
+        left: 50px;
+        width: calc(100% - 152px);/*142+10*/
+    }
+    .videoChart .status{
+        width: 42px;
+        height: 42px;
+        background: olivedrab;
+        border:1px solid black;
+        border-radius: 50%;
+        position: absolute;
+        top: 14px;
+        right: 50px;
+    }
+    .sual1{
+        background-color: whitesmoke;
+        width: 280px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: /*430*/330px;/*470+80+20*/
+        left: calc(50% - 140px);/*(100% - 280px)/2*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+    }
+    .sual1 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual1 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual1 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual1 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 260px;
+        margin-left: 10px;
+        margin-right: 10px;
+        word-wrap: break-word;
+    }
+    
+    
+    .sual2{
+        background-color: whitesmoke;
+        width: 280px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: /*760*/660px;/*470+80+20*/
+        left: calc(50% - 140px);/*(100% - 280px)/2*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+    }
+    .sual2 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual2 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual2 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual2 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 260px;
+        margin-left: 10px;
+        margin-right: 10px;
+        word-wrap: break-word;
+    }
+    
+    .sual3{
+        background-color: whitesmoke;
+        width: 280px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: /*1090*/990px;/*470+80+20*/
+        left: calc(50% - 140px);/*(100% - 280px)/2*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+    }
+    .sual3 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual3 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual3 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual3 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 260px;
+        margin-left: 10px;
+        margin-right: 10px;
+        word-wrap: break-word;
+    }
+}
