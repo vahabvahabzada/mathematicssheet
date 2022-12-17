@@ -37,18 +37,17 @@ body{
     /*background-color: green;*/
 }
 
-.input input{
+/*.input input{
     height: 28px;
     width: 300px;
     position: relative;
-    top: 66px;/*(160 - 28)/2*/
-}
-.input{
+    top: 66px; (160 - 28)/2
+}*/
+/*.input{
     position: relative;
-    /*background-color: yellow;*/
     bottom: 8px;
-}
-.img{
+}*/
+/*.img{
     width: 28px;
     height: 28px;
     background: url("../../assets/lupa.png");
@@ -56,7 +55,7 @@ body{
     top: 75px;
     border: none;
     cursor: pointer;
-}
+}*/
 
 .ps{
     position: relative;

@@ -36,7 +36,7 @@ export default function Header(){
         <p className="ps" id="courses" onClick={clickHandler}>{kursYazisi}</p>
         {/*<p className="input"><input type="text" placeholder="Search"/><div className="img"></div></p>*/}
         {/*<input type="text" placeholder="Search"/><div className="img"></div>*/}
-        <div className="input"><input type="text" placeholder="Search"/><button className="img"></button></div>
+        {/*<div className="input"><input type="text" placeholder="Search"/><button className="img"></button></div>*/}
         <Link to=/*"login"*/"/" className="logo"><div id="logo"></div></Link>
         <Link to="/"><p className="ps" id="home">Home</p></Link>
         <Link to="/login"><p className="ps" id="login">Login</p></Link>
