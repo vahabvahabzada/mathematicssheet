@@ -13,7 +13,7 @@
     position: relative;
     width: 100%;
     height: /*420*/1580px;
-    background-color: aquamarine;
+    background-color: #E5CD77;
 }
 .videoChart iframe{
     position: absolute;
@@ -24,20 +24,24 @@
     border: 0px;
 }
 .videoChart .title{
-    background-color: green;
+    background-color: #222A35;
     font-size: 28px;
-    height: 42px;
+    height: /*42px*/auto;
     position: absolute;
-    padding: 0;
+    padding-left: 50px;
     margin: 0;
     top: 14px;/*(70px-42px)/2*/
     left: 50px;
     width: calc(100% - 152px);/*142+10*/
+    border: 2px solid #222A35;
+    border-radius: 20px;
+    color: antiquewhite;
 }
 .videoChart .status{
     width: 42px;
     height: 42px;
-    background: olivedrab;
+    background-color: #222A35;
+    background-image: url("../../assets/star2.png");
     border:1px solid black;
     border-radius: 50%;
     position: absolute;
@@ -45,7 +49,7 @@
     right: 50px;
 }
 .sual1{
-    background-color: whitesmoke;
+    background-color: #222A35;
     width: 600px;
     height: /*280px*/auto;
     position: absolute;
@@ -68,7 +72,7 @@
     display: flex;
     margin-top: 2px;
     /*border-radius: 10px;*/
-    border: 1px solid #222A35;
+    border: 1px solid wheat;
     border-radius: 20px;
     margin-left: 5px;
     margin-right: 5px;
@@ -90,7 +94,7 @@
 
 
 .sual2{
-    background-color: whitesmoke;
+    background-color: #222A35;
     width: 600px;
     height: /*280px*/auto;
     position: absolute;
@@ -113,7 +117,7 @@
     display: flex;
     margin-top: 2px;
     /*border-radius: 10px;*/
-    border: 1px solid #222A35;
+    border: 1px solid wheat;
     border-radius: 20px;
     margin-left: 5px;
     margin-right: 5px;
@@ -134,7 +138,7 @@
 }
 
 .sual3{
-    background-color: whitesmoke;
+    background-color: #222A35;
     width: 600px;
     height: /*280px*/auto;
     position: absolute;
@@ -157,7 +161,7 @@
     display: flex;
     margin-top: 2px;
     /*border-radius: 10px;*/
-    border: 1px solid #222A35;
+    border: 1px solid wheat;
     border-radius: 20px;
     margin-left: 5px;
     margin-right: 5px;
@@ -192,7 +196,7 @@
         position: relative;
         width: 100%;
         height: /*420*/1500px;
-        background-color: #222A35;
+        background-color: #E5CD77;
     }
     .videoChart iframe{
         position: absolute;
@@ -203,7 +207,7 @@
         border: 0px;
     }
     .videoChart .title{
-        background-color: green;
+        background-color: #222A35;
         font-size: 28px;
         height: 42px;
         position: absolute;
@@ -216,7 +220,8 @@
     .videoChart .status{
         width: 42px;
         height: 42px;
-        background: olivedrab;
+        background-color: #222A35;
+        background-image: url("../../assets/star2.png");
         border:1px solid black;
         border-radius: 50%;
         position: absolute;
@@ -224,7 +229,7 @@
         right: 50px;
     }
     .sual1{
-        background-color: whitesmoke;
+        background-color: #222A35;
         width: 500px;
         height: /*280px*/auto;
         position: absolute;
@@ -247,7 +252,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -269,7 +274,7 @@
     
 
     .sual2{
-        background-color: whitesmoke;
+        background-color: #222A35;
         width: 500px;
         height: /*280px*/auto;
         position: absolute;
@@ -292,7 +297,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -313,7 +318,7 @@
     }
     
     .sual3{
-        background-color: whitesmoke;
+        background-color: #222A35;
         width: 500px;
         height: /*280px*/auto;
         position: absolute;
@@ -336,7 +341,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -369,7 +374,7 @@
         position: relative;
         width: 100%;
         height: /*420*/1420px;
-        background-color: #222A35;
+        background-color: #E5CD77;
     }
     .videoChart iframe{
         position: absolute;
@@ -379,7 +384,7 @@
         top: 70px;
     }
     .videoChart .title{
-        background-color: green;
+        background-color: #222A35;
         font-size: 28px;
         height: 42px;
         position: absolute;
@@ -393,7 +398,8 @@
     .videoChart .status{
         width: 42px;
         height: 42px;
-        background: olivedrab;
+        background-color: #222A35;
+        background-image: url("../../assets/star2.png");
         border:1px solid black;
         border-radius: 50%;
         position: absolute;
@@ -401,7 +407,7 @@
         right: 50px;
     }
     .sual1{
-        background-color: whitesmoke;
+        background-color: #222A35;
         width: 400px;
         height: /*280px*/auto;
         position: absolute;
@@ -424,7 +430,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -446,7 +452,7 @@
     
     
     .sual2{
-        background-color: whitesmoke;
+        background-color: #222A35;
         width: 400px;
         height: /*280px*/auto;
         position: absolute;
@@ -469,7 +475,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -490,7 +496,7 @@
     }
     
     .sual3{
-        background-color: whitesmoke;
+        background-color: #222A35;
         width: 400px;
         height: /*280px*/auto;
         position: absolute;
@@ -513,7 +519,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -547,7 +553,7 @@
         position: relative;
         width: 100%;
         height: /*420*/1340px;
-        background-color: whitesmoke;
+        background-color: #E5CD77;
     }
     .videoChart iframe{
         position: absolute;
@@ -559,33 +565,35 @@
         border: 0px;
     }
     .videoChart .title{
-        background-color: green;
+        background-color: #222A35;
         font-size: 28px;
         height: 42px;
         position: absolute;
         padding: 0;
         margin: 0;
         top: 14px;/*(70px-42px)/2*/
-        left: 50px;
-        width: calc(100% - 152px);/*142+10*/
+        left: /*50px*/5px;
+        width: /*calc(100% - 152px)*/calc(100% - 62px);/*142+10*/
     }
     .videoChart .status{
         width: 42px;
         height: 42px;
-        background: olivedrab;
+        background-color: #222A35;
+        background-image: url("../../assets/star2.png");
         border:1px solid black;
         border-radius: 50%;
         position: absolute;
         top: 14px;
-        right: 50px;
+        right: 5px;
     }
     .sual1{
-        background-color: whitesmoke;
-        width: 280px;
+        background-color: #222A35/*whitesmoke*/;
+        width: /*280px*/350px;
         height: /*280px*/auto;
         position: absolute;
         top: /*430*/330px;/*470+80+20*/
-        left: calc(50% - 140px);/*(100% - 280px)/2*/
+        /*left: calc(50% - 140px);/*(100% - 280px)/2*/
+        left: calc(50% - 175px);  /*(100% - 412px)/2*/
         border: 1px solid #222A35;
         border-radius: 20px;
     }
@@ -604,7 +612,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -627,7 +635,194 @@
     
     
     .sual2{
+        background-color: #222A35/*whitesmoke*/;
+        width: /*280px*/350px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: /*760*/660px;/*470+80+20*/
+        /*left: calc(50% - 140px);/*(100% - 280px)/2*/
+        left: calc(50% - 175px);  /*(100% - 412px)/2*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+    }
+    .sual2 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual2 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid wheat;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual2 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual2 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 260px;
+        margin-left: 10px;
+        margin-right: 10px;
+        word-wrap: break-word;
+    }
+    
+    .sual3{
+        background-color: #222A35;
+        width: 350px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: /*1090*/990px;/*470+80+20*/
+        /*left: calc(50% - 140px);/*(100% - 280px)/2*/
+        left: calc(50% - 175px);  /*(100% - 412px)/2*/
+        border: 1px solid #282b2f;
+        border-radius: 20px;
+    }
+    .sual3 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual3 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid wheat;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual3 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual3 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 260px;
+        margin-left: 10px;
+        margin-right: 10px;
+        word-wrap: break-word;
+    }
+}
+@media(max-width:/*281*/359px){
+    .videoBody{
+        width: 100%;
+        /*height: 3000px;*/
+        position: relative;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    .videoChart{
+        position: relative;
+        width: 100%;
+        height: /*420*/1340px;
         background-color: whitesmoke;
+    }
+    .videoChart iframe{
+        position: absolute;
+        width: /*420*//*270*/300px;
+        height: 178px;
+        left: calc(50% - 150px);  /*(100% - 300px)/2*/
+        top: 70px;
+        /*border: 2px solid royalblue;*/
+        border: 0px;
+    }
+    .videoChart .title{
+        background-color: #222A35;
+        font-size: 28px;
+        height: 42px;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top: 14px;/*(70px-42px)/2*/
+        left: 50px;
+        width: calc(100% - 152px);/*142+10*/
+    }
+    .videoChart .status{
+        width: 42px;
+        height: 42px;
+        background-color: #222A35;
+        background-image: url("../../assets/star2.png");
+        border:1px solid black;
+        border-radius: 50%;
+        position: absolute;
+        top: 14px;
+        right: 50px;
+    }
+    .sual1{
+        background-color: #222A35;
+        width: /*280px*/280px;
+        height: /*280px*/auto;
+        position: absolute;
+        top: /*430*/330px;/*470+80+20*/
+        left: calc(50% - 140px);/*(100% - 280px)/2*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+    }
+    .sual1 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual1 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid wheat;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual1 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+    }
+    .sual1 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 260px;
+        margin-left: 10px;
+        margin-right: 10px;
+        word-wrap: break-word;
+    }
+    
+    
+    .sual2{
+        background-color: #222A35;
         width: 280px;
         height: /*280px*/auto;
         position: absolute;
@@ -651,7 +846,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -673,7 +868,7 @@
     }
     
     .sual3{
-        background-color: whitesmoke;
+        background-color: #222A35;
         width: 280px;
         height: /*280px*/auto;
         position: absolute;
@@ -697,7 +892,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -735,41 +930,42 @@
     }
     .videoChart iframe{
         position: absolute;
-        width: /*420*/270px;
+        width: /*420*/266px;
         height: 178px;
-        left: calc(50% - 135px);  /*(100% - 270px)/2*/
+        left: calc(50% - 133px);  /*(100% - 266px)/2*/
         top: 70px;
         /*border: 2px solid royalblue;*/
         border: 0px;
     }
     .videoChart .title{
-        background-color: green;
+        background-color: #222A35;
         font-size: 28px;
         height: 42px;
         position: absolute;
         padding: 0;
         margin: 0;
         top: 14px;/*(70px-42px)/2*/
-        left: 50px;
-        width: calc(100% - 152px);/*142+10*/
+        left: 5px;
+        width: calc(100% - 62px);/*142+10*/
     }
     .videoChart .status{
         width: 42px;
         height: 42px;
-        background: olivedrab;
+        background-color: #222A35;
+        background-image: url("../../assets/star2.png");
         border:1px solid black;
         border-radius: 50%;
         position: absolute;
         top: 14px;
-        right: 50px;
+        right: 5px;
     }
     .sual1{
-        background-color: whitesmoke;
-        width: 280px;
+        background-color: #222A35;
+        width: /*280px*/266px;
         height: /*280px*/auto;
         position: absolute;
         top: /*430*/330px;/*470+80+20*/
-        left: calc(50% - 140px);/*(100% - 280px)/2*/
+        left: calc(50% - 133px);/*(100% - 266px)/2*/
         border: 1px solid #222A35;
         border-radius: 20px;
     }
@@ -788,7 +984,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -811,12 +1007,12 @@
     
     
     .sual2{
-        background-color: whitesmoke;
-        width: 280px;
+        background-color: #222A35;
+        width: 266px;
         height: /*280px*/auto;
         position: absolute;
         top: /*760*/660px;/*470+80+20*/
-        left: calc(50% - 140px);/*(100% - 280px)/2*/
+        left: calc(50% - 133px);/*(100% - 266px)/2*/
         border: 1px solid #222A35;
         border-radius: 20px;
     }
@@ -835,7 +1031,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -857,12 +1053,12 @@
     }
     
     .sual3{
-        background-color: whitesmoke;
-        width: 280px;
+        background-color: #222A35;
+        width: 266px;
         height: /*280px*/auto;
         position: absolute;
         top: /*1090*/990px;/*470+80+20*/
-        left: calc(50% - 140px);/*(100% - 280px)/2*/
+        left: calc(50% - 133px);/*(100% - 266px)/2*/
         border: 1px solid #222A35;
         border-radius: 20px;
     }
@@ -881,7 +1077,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid #222A35;
+        border: 1px solid wheat;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;

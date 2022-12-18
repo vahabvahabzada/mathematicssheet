@@ -7,7 +7,7 @@
     background-color: #222A35;
 }
 .footer .mission{
-    color: olivedrab;
+    color: #E5CD77;
     width: 400px;
     height: 100px;
     font-size: 18px;
@@ -47,19 +47,22 @@
     background: url("../../assets/insta.png");
 }
 .footer .social #insta:hover{
-    background-color: olivedrab;
+    /*background-color: #ebc94f;*/
+    border: 1px solid #E5CD77;
 }
 .footer .social #face{
     background: url("../../assets/facebook.png");
 }
 .footer .social #face:hover{
-    background-color: olivedrab;
+    /*background-color: #ebc94f;*/
+    border: 1px solid #E5CD77;
 }
 .footer .social #linkedin{
     background: url("../../assets/linkedin.png");
 }
 .footer .social #linkedin:hover{
-    background-color: olivedrab;
+    /*background-color: #E5CD77;*/
+    border: 1px solid #E5CD77;
 }
 .footer .social div{
     width: 50px;
@@ -67,8 +70,8 @@
     background-color: aqua;
 }
 .footer .social /*img*/div:hover{
-    background-color: olivedrab;
-    border-radius: 50%;
+    background-color: #E5CD77;
+    border-radius: /*50*/0%;
 }
 .footer .social #insta:hover{
     border-radius:0%;
@@ -89,7 +92,7 @@
         position: absolute;
         /*top: 0px;*/
         right: calc(50% - 100px);/*(100%-200px)/2*/
-        color: olivedrab;
+        color: #E5CD77;
         font-size: 15px;
     }
     .ending{
@@ -125,21 +128,24 @@
     .footer .social #insta{
         background: url("../../assets/instasmall.png");
     }
-    .footer .social #insta:hover{
-        background-color: olivedrab;
-    }
+    /*.footer .social #insta:hover{
+        background-color: #E5CD77;
+        border: 1px solid #E5CD77;
+    }*/
     .footer .social #face{
         background: url("../../assets/facebooksmall.png");
     }
-    .footer .social #face:hover{
-        background-color: olivedrab;
+    /*.footer .social #face:hover{
+        background-color: #E5CD77;
+        border: 1px solid #E5CD77;
         border-radius: 50%;
-    }
+    }*/
     .footer .social #linkedin{
         background: url("../../assets/linkedinsmall.png");
     }
-    .footer .social #linkedin:hover{
-        background-color: olivedrab;
+    /*.footer .social #linkedin:hover{
+        background-color: #E5CD77;
+        border: 1px solid #E5CD77;
         border-radius: 50%;
-    }
+    }*/
 }

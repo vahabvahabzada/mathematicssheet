@@ -1,32 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./lesson.css";
 export default function Lesson(props){
-    //const Lesson=(props)=>{
-    /*state={
-        title:this.props.title,
-        link:this.props,
-        id:this.props.id,
-        status:this.props.status,//3 suali da duz yazibsa ulduz almagi,yazmayibsa almamagi ucundu
-        questions:this.props.questions //props-dan question adli massivi cekecek
-    }*/
-    
-    //let [title,setTitle]=useState(this.props.title);
-    //let [link,setLink]=useState(this.props.link);
-    
-    /*let [id,setId]=useState(this.props.id);*/
-    
-    //let [starstatus,setStatus]=useState(/*false*/this.props.starstatus);/*ilkin halda hec bir suali yazmadigi ucun false veririk*/
-    //let [questions,setQuestions]=useState(/*[]*/this.props.questions);/*questions array-i*/
-    
-    
-    //console.log("******************************");
-    //console.log(props.link);/*yoxlama ucun yazdim,en teze yazdigimdi*/
-    //console.log(props.title);
-    //console.log(props.questions);
-    //console.log("******************************");
-
-
-    const [state,setState]=useState(props);
+    const [state/*,setState*/]=useState(props);
     /*useEffect(()=>{
         setState(props);
     },[props])*/
