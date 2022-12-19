@@ -7,7 +7,7 @@
         height: 1000px;
         position: relative;
         /*background: #d5d9de9d;*/
-        background-color: #E5CD77;
+        background-color: /*#E5CD77*/#cbd3de;
     }
     .loginbody .chart{
         width: /*30%*/500px;
@@ -115,7 +115,7 @@
         height: 1000px;
         position: relative;
         /*background: #ADB9CA;*/
-        background-color: #E5CD77;
+        background-color: /*#E5CD77*/#cbd3de;
     }
     .loginbody .chart{
         width: /*30%*/500px;
@@ -224,7 +224,7 @@
         height: 1000px;
         position: relative;
         /*background: #ADB9CA;*/
-        background-color: #E5CD77;
+        background-color: /*#E5CD77*/#cbd3de;
     }
     .loginbody .chart{
         width: /*30%*//*500*/350px;
@@ -333,7 +333,7 @@
         height: 1000px;
         position: relative;
         /*background: #ADB9CA;*/
-        background-color: #E5CD77;
+        background-color: /*#E5CD77*/#cbd3de;
     }
     .loginbody .chart{
         width: /*30%*//*500*/260px;

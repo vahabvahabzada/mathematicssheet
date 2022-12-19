@@ -14,8 +14,8 @@ export default function Algebra(){
       title:"dfdfdfdf",
       link:"https://www.youtube.com/embed/OmJ-4B-mS-Y",
       /*id:"at"his.props.id,*/
-      status:false,//3 suali da duz yazibsa ulduz almagi,yazmayibsa almamagi ucundu
-      questions:[{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"]},{problem:"jkdfdjfdf",answer:["rgrgrg","ddkjkfdf","owkdwd"]},{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"]}] //props-dan question adli massivi cekecek
+      status:/*false*/0,//3 suali da duz yazibsa ulduz almagi,yazmayibsa almamagi ucundu
+      questions:[{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"B"},{problem:"jkdfdjfdf",answer:["rgrgrg","ddkjkfdf","owkdwd"],correct:"A"},{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"C"}] //props-dan question adli massivi cekecek
     },
     {
         id:"a2",
@@ -23,7 +23,7 @@ export default function Algebra(){
         link:"https://www.youtube.com/embed/OmJ-4B-mS-Y",
         /*id:"at"his.props.id,*/
         status:false,//3 suali da duz yazibsa ulduz almagi,yazmayibsa almamagi ucundu
-        questions:[{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"]},{problem:"jkdfdjfdf",answer:["rgrgrg","ddkjkfdf","owkdwd"]},{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"]}] //props-dan question adli massivi cekecek
+        questions:[{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"A"},{problem:"jkdfdjfdf",answer:["rgrgrg","ddkjkfdf","owkdwd"],correct:"B"},{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"C"}] //props-dan question adli massivi cekecek
     },
     {
         id:"a3",
@@ -31,7 +31,7 @@ export default function Algebra(){
         link:"https://www.youtube.com/embed/OmJ-4B-mS-Y",
         /*id:"at"his.props.id,*/
         status:false,//3 suali da duz yazibsa ulduz almagi,yazmayibsa almamagi ucundu
-        questions:[{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"]},{problem:"jkdfdjfdf",answer:["rgrgrg","ddkjkfdf","owkdwd"]},{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"]}] //props-dan question adli massivi cekecek
+        questions:[{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"C"},{problem:"jkdfdjfdf",answer:["rgrgrg","ddkjkfdf","owkdwd"],correct:"A"},{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"B"}] //props-dan question adli massivi cekecek
     }
 ]);
 
