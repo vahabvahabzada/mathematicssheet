@@ -10,15 +10,16 @@ export default function Algebra(){
     ]);*/
 
     const [lessonAttributes]=useState([{
-      id:"a1",  
-      title:"dfdfdfdf",
+      id:"0",  
+      title:"dfdfdfdfjjjhkjlklkkkdkdkdkdkdkdkdkdkdk",
       link:"https://www.youtube.com/embed/OmJ-4B-mS-Y",
       /*id:"at"his.props.id,*/
       status:/*false*/0,//3 suali da duz yazibsa ulduz almagi,yazmayibsa almamagi ucundu
-      questions:[{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"B"},{problem:"jkdfdjfdf",answer:["rgrgrg","ddkjkfdf","owkdwd"],correct:"A"},{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"C"}] //props-dan question adli massivi cekecek
+      questions:[{problem:"kcjkdjdkfjdkfjdfjdfjkdfjdkfjs;kdfjdkfjdkfjdskfjdkfjdkfjdksfjdskfjdskfjdkfjdskfjdkfjdkfjdkfjckcnvdsjkjdfkjdkfkkdkdkdkdkdkdkdk",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"B"},{problem:"jkdfdjfdf",answer:["rgrgrg","ddkjkfdf","owkdwd"],correct:"A"},{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"C"}], //props-dan question adli massivi cekecek
+      /*selected:[false,false,false]*//* muvafiq olaraq 1 ci,2 ci ve 3 cu suallara cavab verilib-verilmediyini gosterirve buna uygun olaraq clicklenmeni enable ve disable edirk*/
     },
     {
-        id:"a2",
+        id:"1",
         title:"dfdfdfdf",
         link:"https://www.youtube.com/embed/OmJ-4B-mS-Y",
         /*id:"at"his.props.id,*/
@@ -26,7 +27,7 @@ export default function Algebra(){
         questions:[{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"A"},{problem:"jkdfdjfdf",answer:["rgrgrg","ddkjkfdf","owkdwd"],correct:"B"},{problem:"kcjkdjdkfjdkf",answer:["dfdfdf","fwfldkf","ffelfekf"],correct:"C"}] //props-dan question adli massivi cekecek
     },
     {
-        id:"a3",
+        id:"2",
         title:"dfdfdfdf",
         link:"https://www.youtube.com/embed/OmJ-4B-mS-Y",
         /*id:"at"his.props.id,*/

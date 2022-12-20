@@ -29,6 +29,7 @@ export default function Header(){
         else{
             setSanwichStatus(sandwichClicked+1);
             document.querySelector(".sandwichMenuCategory").style.display="none";
+            document.querySelector(".kurslar").style.display="none";
         }
     }
     return <div className="header">

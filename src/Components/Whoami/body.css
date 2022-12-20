@@ -4,20 +4,21 @@
     position: relative;
 }
 .photo{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     background-color: greenyellow;
     border-radius: 50%;
     position: absolute;
-    left: calc(50% - 125px);
-    top: 30px;
+    left: calc(50% - 175px);
+    top: /*30px*/100px;/*1000px-*/
 }
 article{
-    width: 400px;
-    background-color: olive;
+    width: /*600px*/80%;
+    /*background-color: olive;*/
     position: absolute;
-    top: 380px;
-    left: calc(50% - 200px);/*(100%-400px)/2*/
-    font-size: 32px;
+    top: 500px;
+    left: 10%;/*(100%-80%)/2*//*calc(50% - 300px);*//*(100%-600px)/2*/
+    font-size: /*32px*/42px;
+    color: #222A35;
 }
 /*media query-ler yazib responsive etmeklazimdi*/
