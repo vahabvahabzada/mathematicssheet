@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
 }
+
 .videoBody{
     width: 100%;
     /*height: 3000px;*/
+    height: auto;
     position: relative;
     padding: 0;
     margin: 0;
@@ -12,53 +14,59 @@
 .videoChart{
     position: relative;
     width: 100%;
-    height: /*420*/1580px;
+    height: /*420*//*1580px*//*1730px*/1800px;
     background-color: /*#E5CD77*//*#cbd3de*/antiquewhite;
 }
 .videoChart iframe{
-    position: absolute;
+    position: /*absolute*/relative;
     width: /*420*/854px;
     height: 480px;
     left: calc(50% - 427px);  /*(100% - 854px)/2*/
-    top: 70px;
+    top: /*70px*//*100px*/70px;
     border: 0px;
+    margin-top: 50px;/*bunu teze yazmisam*/
 }
 .videoChart .title{
     /*background-color: #222A35;*/
-    font-size: 28px;
+    font-size: 24px;
     height: /*42px*/auto;
-    position: absolute;
-    padding-left: 50px;
+    position: /*absolute*/relative;
+    padding-left: /*50*/8px;
     margin: 0;
-    top: 14px;/*(70px-42px)/2*/
+    top: /*14px*//*20px*/70px;/*(70px-42px)/2*/
     left: 50px;
-    width: calc(100% - 152px);/*142+10*/
+    width: calc(100% - 100px);/*142+10*/
     border: 2px solid #222A35;
-    border-radius: 20px;
-    color: antiquewhite;
+    border-radius: 10px;
+    color: #222A35;
+    text-align: center;/*teze yazdim*/
+    word-wrap: break-word;
 }
 .videoChart .status{
     width: 42px;
     height: 42px;
     background-color: #222A35;
-    /*background-image: url("../../assets/star2.png");*/
+    background-image: url("../../assets/star2.png");
     border:1px solid black;
     border-radius: 50%;
     position: absolute;
     top: 14px;
-    right: 50px;
+    /*right: 50px;*/
+    left: calc(50% - 21px);/*(100% - 42px)/2*/
 }
 .sual1{
     /*background-color: #222A35;*/
-    width: 600px;
+    width: /*600px*/800px;
     height: /*280px*/auto;
-    position: absolute;
-    top: 570px;/*470+80+20*/
-    left: calc(50% - 300px);/*(100% - 600px)/2*/
+    position: /*absolute*/relative;
+    top:/*570px*/120px;/*470+80+20*/
+    left: calc(50% - 400px);/*(100% - 800px)/2*/
     border:2px solid #222A35;
-    border-radius: 20px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    /*margin-top: 80px;*/
 }
-.sual1 .a,.b,.c{
+.sual1 .a,.sual1 .b,.sual1 .c{
     width: 30px;
     height: 30px;
     background-color: /*red*/#222A35;
@@ -73,22 +81,24 @@
     display: flex;
     margin-top: 2px;
     /*border-radius: 10px;*/
-    border: 1px solid wheat;
+    border: 1px solid /*wheat*/#222A35;
     border-radius: 20px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 8px;
 }
-.sual1 .answera,.answerb,.answerc{
-    background-color: cadetblue;
-    text-align: center;
+.sual1 .answera,.sual1 .answerb,.sual1 .answerc{
+    background-color: cadetblue;/* burda qalmisam*/
     margin-left: 10px;
     padding-top: 2px;
+    width: /*500px*/700px;
+    height: auto;
+    text-align: center;
 }
 .sual1 .problem{
     /*background-color: orangered;*/
     height: 50px;
-    width: 580px;
+    width: /*580px*/780px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -96,15 +106,17 @@
 
 .sual2{
     /*background-color: #222A35;*/
-    width: 600px;
+    width: /*600px*/800px;
     height: /*280px*/auto;
-    position: absolute;
-    top: 900px;/*470+80+20*/
-    left: calc(50% - 300px);/*(100% - 600px)/2*/
+    position: relative;
+    top: /*900px*/155px;/*470+80+20*//*120+35*/
+    left: calc(50% - 400px);/*(100% - 800px)/2*/
     border: 2px solid #222A35;
-    border-radius: 20px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    /*margin-top: 90px;*/
 }
-.sual2 .a,.b,.c{
+.sual2 .a,.sual2 .b,.sual2 .c{
     width: 30px;
     height: 30px;
     background-color: /*red*/#222A35;
@@ -119,40 +131,44 @@
     display: flex;
     margin-top: 2px;
     /*border-radius: 10px;*/
-    border: 1px solid wheat;
+    border: 1px solid #222A35;
     border-radius: 20px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 8px;
 }
-.sual2 .answera,.answerb,.answerc{
+.sual2 .answera, .sual2 .answerb, .sual2 .answerc{
     background-color: cadetblue;
     text-align: center;
     margin-left: 10px;
     padding-top: 2px;
+    width: 700px;
+    height: auto;
 }
 .sual2 .problem{
     /*background-color: orangered;*/
     height: 50px;
-    width: 580px;
+    width: /*580px*/780px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .sual3{
     /*background-color: #222A35;*/
-    width: 600px;
+    width: /*600px*/800px;
     height: /*280px*/auto;
-    position: absolute;
-    top: 1230px;/*470+80+20*/
-    left: calc(50% - 300px);/*(100% - 600px)/2*/
+    position: /*absolute*/relative;
+    top: /*1230px*/190px;/*470+80+20*/ /*135+35*/
+    left: calc(50% - 400px);/*(100% - 800px)/2*/
     border: 2px solid #222A35;
-    border-radius: 20px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    /*margin-top: 90px;*/
 }
 .sual3 .a,.b,.c{
     width: 30px;
     height: 30px;
-    background-color: red;
+    background-color: #222A35;
     text-align: center;
     padding-top: 2px;
     margin-left: 20px;
@@ -164,32 +180,33 @@
     display: flex;
     margin-top: 2px;
     /*border-radius: 10px;*/
-    border: 1px solid wheat;
+    border: 1px solid /*wheat*/#222A35;
     border-radius: 20px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 8px;
 }
 .sual3 .answera,.answerb,.answerc{
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     text-align: center;
     margin-left: 10px;
     padding-top: 2px;
+    width: 700px;
+    height: auto;
 }
 .sual3 .problem{
     /*background-color: orangered;*/
     height: 50px;
-    width: 580px;
+    width: 780px;
     margin-left: 10px;
     margin-right: 10px;
 }
-
-
 
 @media(max-width:891px){
     .videoBody{
         width: 100%;
         /*height: 3000px;*/
+        height: auto;
         position: relative;
         padding: 0;
         margin: 0;
@@ -198,28 +215,31 @@
     .videoChart{
         position: relative;
         width: 100%;
-        height: /*420*/1500px;
+        height: /*420*//*1500*/1800px;
         background-color: /*#E5CD77*//*#cbd3de*//*black*/antiquewhite;
     }
     .videoChart iframe{
-        position: absolute;
+        position: relative;
         width: /*420*/640px;
         height: 360px;
         left: calc(50% - 320px);  /*(100% - 640px)/2*/
         top: 70px;
         border: 0px;
+        margin-top: 50px;
     }
     .videoChart .title{
         /*background-color: #222A35;*/
-        font-size: 28px;
-        height: 42px;
-        position: absolute;
+        font-size: 24px;
+        height: /*42px*/auto;
+        position: relative;
         padding: 0;
         margin: 0;
-        top: 14px;/*(70px-42px)/2*/
+        top: /*14px*/70px;/*(70px-42px)/2*/
         left: 50px;
-        width: calc(100% - 152px);/*142+10*/
+        width: calc(100% - 100px);/*142+10*/
         border:2px solid #222A35;
+        text-align: center;
+        word-wrap: break-word;
     }
     .videoChart .status{
         width: 42px;
@@ -230,17 +250,19 @@
         border-radius: 50%;
         position: absolute;
         top: 14px;
-        right: 50px;
+        /*right: 50px;*/
+        left: calc(50% - 21px);
     }
     .sual1{
         /*background-color: #222A35;*/
-        width: 500px;
+        width: /*500*/600px;
         height: /*280px*/auto;
-        position: absolute;
-        top: 500px;/*470+80+20*/
-        left: calc(50% - 250px);/*(100% - 500px)/2*/
+        position: relative;
+        top: 120px;/*470+80+20*/
+        left: calc(50% - 300px);/*calc(50% - 320px + 20px);*//*(100% - 600px)/2*/
         border:2px solid #222A35;
-        border-radius: 20px;
+        border-radius: 10px;
+        word-wrap: break-word;
     }
     .sual1 .a,.b,.c{
         width: 30px;
@@ -263,16 +285,18 @@
         margin-right: 5px;
         margin-bottom: 8px;
     }
-    .sual1 .answera,.answerb,.answerc{
+    .sual1 .answera,.sual1 .answerb,.sual1 .answerc{
         background-color: cadetblue;
-        text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        text-align: center;
+        height: auto;
+        width: 500px;
     }
     .sual1 .problem{
         /*background-color: orangered;*/
         height: 50px;
-        width: 480px;
+        width: 580px;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -280,13 +304,14 @@
 
     .sual2{
         /*background-color: #222A35;*/
-        width: 500px;
+        width: 600px;
         height: /*280px*/auto;
-        position: absolute;
-        top: 830px;/*470+80+20*/
-        left: calc(50% - 250px);/*(100% - 500px)/2*/
+        position: relative;
+        top: 155px;/*470+80+20*/
+        left: calc(50% - 300px);/*calc(50% - 320px + 20px);*//*(100% - 600px)/2*/
         border: 2px solid #222A35;
-        border-radius: 20px;
+        border-radius: 10px;
+        word-wrap: break-word;
     }
     .sual2 .a,.b,.c{
         width: 30px;
@@ -309,29 +334,32 @@
         margin-right: 5px;
         margin-bottom: 8px;
     }
-    .sual2 .answera,.answerb,.answerc{
+    .sual2 .answera,.sual2 .answerb,.sual2 .answerc{
         background-color: cadetblue;
-        text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        height: auto;
+        text-align: center;
+        width: 500px;
     }
     .sual2 .problem{
         /*background-color: orangered;*/
         height: 50px;
-        width: 480px;
+        width: 580px;
         margin-left: 10px;
         margin-right: 10px;
     }
     
     .sual3{
         /*background-color: #222A35;*/
-        width: 500px;
+        width: 600px;
         height: /*280px*/auto;
-        position: absolute;
-        top: 1160px;/*470+80+20*/
-        left: calc(50% - 250px);/*(100% - 500px)/2*/
+        position: relative;
+        top: 190px;/*470+80+20*/
+        left: calc(50% - 300px);/*calc(50% - 320px + 20px);*//*(100% - 600px)/2*/
         border: 2px solid #222A35;
-        border-radius: 20px;
+        border-radius: 10px;
+        word-wrap: break-word;
     }
     .sual3 .a,.b,.c{
         width: 30px;
@@ -354,16 +382,18 @@
         margin-right: 5px;
         margin-bottom: 8px;
     }
-    .sual3 .answera,.answerb,.answerc{
+    .sual3 .answera,.sual3 .answerb,.sual3 .answerc{
         background-color: cadetblue;
-        text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        height: auto;
+        text-align: center;
+        width: 500px;
     }
     .sual3 .problem{
         /*background-color: orangered;*/
         height: 50px;
-        width: 480px;
+        width: 580px;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -380,29 +410,31 @@
     .videoChart{
         position: relative;
         width: 100%;
-        height: /*420*/1420px;
+        height: /*420*//*1420*/1800px;
         background-color: /*#E5CD77*//*#cbd3de*/antiquewhite;
     }
     .videoChart iframe{
-        position: absolute;
+        position: relative;
         width: /*420*/426px;
         height: 240px;
         left: calc(50% - 213px);  /*(100% - 426px)/2*/
         top: 70px;
+        border: 0px;
+        margin-top: 50px;
     }
     .videoChart .title{
         /*background-color: #222A35;*/
-        font-size: 18px;
+        font-size: 22px;
         word-wrap: break-word;
-        height: 42px;
-        padding-top: 6px;
-        padding-left: 6px;
-        position: absolute;
-        /*padding: 0;*/
+        height: /*42px*/auto;
+        /*padding-top: 6px;
+        padding-left: 6px;*/
+        position: relative;
+        padding: 0;
         margin: 0;
-        top: 14px;/*(70px-42px)/2*/
-        left: 10px;
-        width: calc(100% - 62px);/*142+10*/
+        top: 70px;/*(70px-42px)/2*/
+        left: 50px;
+        width: calc(100% - 100px);/*142+10*/
         /*border: 0px;*/
         border: 2px solid #222A35;
         color:#222A35;
@@ -416,14 +448,15 @@
         border-radius: 50%;
         position: absolute;
         top: 14px;
-        right: 10px;
+        /*right: 10px;*/
+        left: calc(50% - 21px);
     }
     .sual1{
         /*background-color: #222A35;*/
         width: 400px;
         height: /*280px*/auto;
-        position: absolute;
-        top: 430px;/*470+80+20*/
+        position: relative;
+        top: /*430px*/120px;/*470+80+20*/
         left: calc(50% - 200px);/*(100% - 400px)/2*/
         border: 2px solid #222A35;
         border-radius: 20px;
@@ -450,11 +483,13 @@
         margin-right: 5px;
         margin-bottom: 8px;
     }
-    .sual1 .answera,.answerb,.answerc{
+    .sual1 .answera,.sual1 .answerb,.sual1 .answerc{
         background-color: cadetblue;
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        height: auto;
+        width: 300px;
     }
     .sual1 .problem{
         /*background-color: orangered;*/
@@ -462,7 +497,7 @@
         width: 380px;
         margin-left: 10px;
         margin-right: 10px;
-        margin-top: 15px;
+        /*margin-top: 15px;*/
     }
     
     
@@ -470,11 +505,12 @@
         /*background-color: #222A35;*/
         width: 400px;
         height: /*280px*/auto;
-        position: absolute;
-        top: 760px;/*470+80+20*/
+        position: relative;
+        top: 155px;/*470+80+20*/
         left: calc(50% - 200px);/*(100% - 400px)/2*/
         border: 2px solid #222A35;
         border-radius: 20px;
+        word-wrap: break-word;
     }
     .sual2 .a,.b,.c{
         width: 30px;
@@ -497,11 +533,12 @@
         margin-right: 5px;
         margin-bottom: 8px;
     }
-    .sual2 .answera,.answerb,.answerc{
+    .sual2 .answera,.sual2 .answerb,.sual2 .answerc{
         background-color: cadetblue;
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        width: 300px;
     }
     .sual2 .problem{
         /*background-color: orangered;*/
@@ -515,11 +552,12 @@
         /*background-color: #222A35;*/
         width: 400px;
         height: /*280px*/auto;
-        position: absolute;
-        top: 1090px;/*470+80+20*/
+        position: relative;
+        top: 190px;/*470+80+20*/
         left: calc(50% - 200px);/*(100% - 400px)/2*/
         border: 2px solid #222A35;
         border-radius: 20px;
+        word-wrap: break-word;
     }
     .sual3 .a,.b,.c{
         width: 30px;
@@ -542,11 +580,13 @@
         margin-right: 5px;
         margin-bottom: 8px;
     }
-    .sual3 .answera,.answerb,.answerc{
+    .sual3 .answera,.sual3 .answerb,.sual3 .answerc{
         background-color: cadetblue;
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        height: auto;
+        width: 300px;
     }
     .sual3 .problem{
         /*background-color: orangered;*/
@@ -569,28 +609,29 @@
     .videoChart{
         position: relative;
         width: 100%;
-        height: /*420*/1340px;
+        height: /*420*//*1340*/1800px;
         background-color: /*#E5CD77*//*#cbd3de*/antiquewhite;
     }
     .videoChart iframe{
-        position: absolute;
+        position: relative;
         width: /*420*/350px;
-        height: 226px;
+        height: /*226px*//*164*/198px;
         left: calc(50% - 175px);  /*(100% - 412px)/2*/
         top: 70px;
         /*border: 2px solid royalblue;*/
         border: 0px;
+        margin-top: 50px;
     }
     .videoChart .title{
         /*background-color: #222A35;*/
-        font-size: 28px;
-        height: 42px;
-        position: absolute;
+        font-size: 22px;
+        height: /*42px*/auto;
+        position: relative;
         padding: 0;
         margin: 0;
-        top: 14px;/*(70px-42px)/2*/
-        left: /*50px*/5px;
-        width: /*calc(100% - 152px)*/calc(100% - 62px);/*142+10*/
+        top: /*14px*/70px;/*(70px-42px)/2*/
+        left: /*50px*/50px;
+        width: /*calc(100% - 152px)*/calc(100% - 100px);/*142+10*/
         border: 2px solid #222A35;
     }
     .videoChart .status{
@@ -602,18 +643,20 @@
         border-radius: 50%;
         position: absolute;
         top: 14px;
-        right: 5px;
+        /*right: 5px;*/
+        left: calc(50% - 21px);
     }
     .sual1{
         /*background-color: #222A35;/*whitesmoke*/
         width: /*280px*/350px;
         height: /*280px*/auto;
-        position: absolute;
-        top: /*430*/330px;/*470+80+20*/
+        position: relative;
+        top: /*430*//*330px*/120px;/*470+80+20*/
         /*left: calc(50% - 140px);/*(100% - 280px)/2*/
         left: calc(50% - 175px);  /*(100% - 412px)/2*/
-        border: 1px solid #222A35;
-        border-radius: 20px;
+        border: 2px solid #222A35;
+        border-radius: 10px;
+        word-wrap: break-word;
     }
     .sual1 .a,.b,.c{
         width: 30px;
@@ -630,25 +673,27 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid wheat;
+        border: 1px solid #222A35;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
         margin-bottom: 8px;
     }
-    .sual1 .answera,.answerb,.answerc{
+    .sual1 .answera,.sual1 .answerb,.sual1 .answerc{
         background-color: cadetblue;
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        height: auto;
+        width: 200px;
     }
     .sual1 .problem{
         /*background-color: orangered;*/
         height: 50px;
-        width: 260px;
+        width: 330px;
         margin-left: 10px;
         margin-right: 10px;
-        word-wrap: break-word;
+        /*word-wrap: break-word;*/
     }
     
     
@@ -656,12 +701,13 @@
         /*background-color: #222A35;/*whitesmoke*/
         width: /*280px*/350px;
         height: /*280px*/auto;
-        position: absolute;
-        top: /*760*/660px;/*470+80+20*/
+        position: relative;
+        top: /*760*//*660px*/155px;/*470+80+20*/
         /*left: calc(50% - 140px);/*(100% - 280px)/2*/
         left: calc(50% - 175px);  /*(100% - 412px)/2*/
         border: 2px solid #222A35;
-        border-radius: 20px;
+        border-radius: 10px;
+        word-wrap: break-word;
     }
     .sual2 .a,.b,.c{
         width: 30px;
@@ -678,7 +724,204 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid wheat;
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual2 .answera,.sual2 .answerb,.sual2 .answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+        height: auto;
+        width: 200px;
+    }
+    .sual2 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 330px;
+        margin-left: 10px;
+        margin-right: 10px;
+        /*word-wrap: break-word;*/
+    }
+    
+    .sual3{
+        /*background-color: #222A35;*/
+        width: 350px;
+        height: /*280px*/auto;
+        position: relative;
+        top: /*1090*//*990px*/190px;/*470+80+20*/
+        /*left: calc(50% - 140px);/*(100% - 280px)/2*/
+        left: calc(50% - 175px);  /*(100% - 412px)/2*/
+        border: 2px solid #222A35;
+        border-radius: 10px;
+        word-wrap: break-word;
+    }
+    .sual3 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: #222A35;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual3 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual3 .answera,.sual3 .answerb,.sual3 .answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+        height: auto;
+        width: 200px;
+    }
+    .sual3 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 330px;
+        margin-left: 10px;
+        margin-right: 10px;
+        word-wrap: break-word;
+    }
+}
+@media(max-width:/*281*/359px/*371px*/){
+    .videoBody{
+        width: 100%;
+        /*height: 3000px;*/
+        position: relative;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    .videoChart{
+        position: relative;
+        width: 100%;
+        height: /*420*//*1340px*/1600px;
+        background-color: /*#cbd3de*/antiquewhite;
+    }
+    .videoChart iframe{
+        position: relative;
+        width: /*420*//*270*/300px;
+        height: 170px;
+        left: calc(50% - 150px);  /*(100% - 300px)/2*/
+        top: 70px;
+        /*border: 2px solid royalblue;*/
+        border: 0px;
+        margin-top: 50px;
+    }
+    .videoChart .title{
+        /*background-color: #222A35;*/
+        font-size: 20px;
+        height: /*42px*/auto;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        top: 70px;/*(70px-42px)/2*/
+        left: 50px;
+        width: calc(100% - 100px);/*142+10*/
+    }
+    .videoChart .status{
+        width: 42px;
+        height: 42px;
+        background-color: #222A35;
+        background-image: url("../../assets/star2.png");
+        border:1px solid black;
+        border-radius: 50%;
+        position: absolute;
+        top: 14px;
+        /*right: 50px;*/
+        left: calc(50% - 21px);
+    }
+    .sual1{
+        /*background-color: #222A35;*/
+        width: /*280px*/280px;
+        height: /*280px*/auto;
+        position: relative;
+        top: /*430*//*330px*/120px;/*470+80+20*/
+        left: calc(50% - 140px);/*(100% - 280px)/2*/
+        border: 2px solid #222A35;
+        border-radius: 10px;
+        word-wrap: break-word;
+    }
+    .sual1 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: #222A35;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual1 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .sual1 .answera,.answerb,.answerc{
+        background-color: cadetblue;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 2px;
+        height: auto;
+        width: 200px;
+    }
+    .sual1 .problem{
+        /*background-color: orangered;*/
+        height: 50px;
+        width: 260px;
+        margin-left: 10px;
+        margin-right: 10px;
+        word-wrap: break-word;
+        font-size: 15px;
+    }
+    
+    
+    .sual2{
+        /*background-color: #222A35;*/
+        width: 280px;
+        height: /*280px*/auto;
+        position: relative;
+        top: /*760*//*660px;*/155px;/*470+80+20*/
+        left: calc(50% - 140px);/*(100% - 280px)/2*/
+        border: 2px solid #222A35;
+        border-radius: 10px;
+    }
+    .sual2 .a,.b,.c{
+        width: 30px;
+        height: 30px;
+        background-color: #222A35;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .sual2 div{
+        /*background-color: yellow;*/
+        display: flex;
+        margin-top: 2px;
+        /*border-radius: 10px;*/
+        border: 1px solid #222A35;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -689,6 +932,7 @@
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        width: 200px;
     }
     .sual2 .problem{
         /*background-color: orangered;*/
@@ -701,14 +945,13 @@
     
     .sual3{
         /*background-color: #222A35;*/
-        width: 350px;
+        width: 280px;
         height: /*280px*/auto;
-        position: absolute;
-        top: /*1090*/990px;/*470+80+20*/
-        /*left: calc(50% - 140px);/*(100% - 280px)/2*/
-        left: calc(50% - 175px);  /*(100% - 412px)/2*/
+        position: relative;
+        top: /*1090*//*990px;*/190px;/*470+80+20*/
+        left: calc(50% - 140px);/*(100% - 280px)/2*/
         border: 2px solid #222A35;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     .sual3 .a,.b,.c{
         width: 30px;
@@ -725,7 +968,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid wheat;
+        border: 1px solid #222A35;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -736,6 +979,8 @@
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        height: auto;
+        width: 200px;
     }
     .sual3 .problem{
         /*background-color: orangered;*/
@@ -744,9 +989,10 @@
         margin-left: 10px;
         margin-right: 10px;
         word-wrap: break-word;
+        font-size: 15px;
     }
 }
-@media(max-width:/*281*/359px){
+@media(max-width:/*281px*/316px){
     .videoBody{
         width: 100%;
         /*height: 3000px;*/
@@ -758,239 +1004,56 @@
     .videoChart{
         position: relative;
         width: 100%;
-        height: /*420*/1340px;
+        height: /*420*//*1340*/1500px;
         background-color: /*#cbd3de*/antiquewhite;
     }
     .videoChart iframe{
-        position: absolute;
-        width: /*420*//*270*/300px;
-        height: 178px;
-        left: calc(50% - 150px);  /*(100% - 300px)/2*/
-        top: 70px;
-        /*border: 2px solid royalblue;*/
-        border: 0px;
-    }
-    .videoChart .title{
-        background-color: #222A35;
-        font-size: 28px;
-        height: 42px;
-        position: absolute;
-        padding: 0;
-        margin: 0;
-        top: 14px;/*(70px-42px)/2*/
-        left: 50px;
-        width: calc(100% - 152px);/*142+10*/
-    }
-    .videoChart .status{
-        width: 42px;
-        height: 42px;
-        background-color: #222A35;
-        background-image: url("../../assets/star2.png");
-        border:1px solid black;
-        border-radius: 50%;
-        position: absolute;
-        top: 14px;
-        right: 50px;
-    }
-    .sual1{
-        background-color: #222A35;
-        width: /*280px*/280px;
-        height: /*280px*/auto;
-        position: absolute;
-        top: /*430*/330px;/*470+80+20*/
-        left: calc(50% - 140px);/*(100% - 280px)/2*/
-        border: 1px solid #222A35;
-        border-radius: 20px;
-    }
-    .sual1 .a,.b,.c{
-        width: 30px;
-        height: 30px;
-        background-color: red;
-        text-align: center;
-        padding-top: 2px;
-        margin-left: 20px;
-        cursor: pointer;
-        border-radius: 50%;
-    }
-    .sual1 div{
-        /*background-color: yellow;*/
-        display: flex;
-        margin-top: 2px;
-        /*border-radius: 10px;*/
-        border: 1px solid wheat;
-        border-radius: 20px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-bottom: 8px;
-    }
-    .sual1 .answera,.answerb,.answerc{
-        background-color: cadetblue;
-        text-align: center;
-        margin-left: 10px;
-        padding-top: 2px;
-    }
-    .sual1 .problem{
-        /*background-color: orangered;*/
-        height: 50px;
-        width: 260px;
-        margin-left: 10px;
-        margin-right: 10px;
-        word-wrap: break-word;
-    }
-    
-    
-    .sual2{
-        background-color: #222A35;
-        width: 280px;
-        height: /*280px*/auto;
-        position: absolute;
-        top: /*760*/660px;/*470+80+20*/
-        left: calc(50% - 140px);/*(100% - 280px)/2*/
-        border: 1px solid #222A35;
-        border-radius: 20px;
-    }
-    .sual2 .a,.b,.c{
-        width: 30px;
-        height: 30px;
-        background-color: red;
-        text-align: center;
-        padding-top: 2px;
-        margin-left: 20px;
-        cursor: pointer;
-        border-radius: 50%;
-    }
-    .sual2 div{
-        /*background-color: yellow;*/
-        display: flex;
-        margin-top: 2px;
-        /*border-radius: 10px;*/
-        border: 1px solid wheat;
-        border-radius: 20px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-bottom: 8px;
-    }
-    .sual2 .answera,.answerb,.answerc{
-        background-color: cadetblue;
-        text-align: center;
-        margin-left: 10px;
-        padding-top: 2px;
-    }
-    .sual2 .problem{
-        /*background-color: orangered;*/
-        height: 50px;
-        width: 260px;
-        margin-left: 10px;
-        margin-right: 10px;
-        word-wrap: break-word;
-    }
-    
-    .sual3{
-        background-color: #222A35;
-        width: 280px;
-        height: /*280px*/auto;
-        position: absolute;
-        top: /*1090*/990px;/*470+80+20*/
-        left: calc(50% - 140px);/*(100% - 280px)/2*/
-        border: 1px solid #222A35;
-        border-radius: 20px;
-    }
-    .sual3 .a,.b,.c{
-        width: 30px;
-        height: 30px;
-        background-color: red;
-        text-align: center;
-        padding-top: 2px;
-        margin-left: 20px;
-        cursor: pointer;
-        border-radius: 50%;
-    }
-    .sual3 div{
-        /*background-color: yellow;*/
-        display: flex;
-        margin-top: 2px;
-        /*border-radius: 10px;*/
-        border: 1px solid wheat;
-        border-radius: 20px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-bottom: 8px;
-    }
-    .sual3 .answera,.answerb,.answerc{
-        background-color: cadetblue;
-        text-align: center;
-        margin-left: 10px;
-        padding-top: 2px;
-    }
-    .sual3 .problem{
-        /*background-color: orangered;*/
-        height: 50px;
-        width: 260px;
-        margin-left: 10px;
-        margin-right: 10px;
-        word-wrap: break-word;
-    }
-}
-@media(max-width:281px){
-    .videoBody{
-        width: 100%;
-        /*height: 3000px;*/
         position: relative;
-        padding: 0;
-        margin: 0;
-        overflow: hidden;
-    }
-    .videoChart{
-        position: relative;
-        width: 100%;
-        height: /*420*/1340px;
-        background-color: /*#cbd3de*/antiquewhite;
-    }
-    .videoChart iframe{
-        position: absolute;
         width: /*420*/266px;
-        height: 178px;
+        height: 150px;
         left: calc(50% - 133px);  /*(100% - 266px)/2*/
         top: 70px;
         /*border: 2px solid royalblue;*/
         border: 0px;
+        margin-top: 50px;
     }
     .videoChart .title{
-        background-color: #222A35;
-        font-size: 28px;
-        height: 42px;
-        position: absolute;
+        /*background-color: #222A35;*/
+        font-size: 16px;
+        height: /*42px*/auto;
+        position: relative;
         padding: 0;
         margin: 0;
-        top: 14px;/*(70px-42px)/2*/
-        left: 5px;
-        width: calc(100% - 62px);/*142+10*/
+        top: /*14px*/70px;/*(70px-42px)/2*/
+        left: 50px;
+        width: calc(100% - 100px);/*142+10*/
     }
     .videoChart .status{
         width: 42px;
         height: 42px;
-        background-color: #222A35;
+        /*background-color: #222A35;*/
         background-image: url("../../assets/star2.png");
         border:1px solid black;
         border-radius: 50%;
         position: absolute;
         top: 14px;
-        right: 5px;
+        /*right: 5px;*/
+        left: calc(50% - 21px);
     }
     .sual1{
-        background-color: #222A35;
+        /*background-color: #222A35;*/
         width: /*280px*/266px;
         height: /*280px*/auto;
-        position: absolute;
-        top: /*430*/330px;/*470+80+20*/
+        position: relative;
+        top: /*430*//*330px;*/120px;/*470+80+20*/
         left: calc(50% - 133px);/*(100% - 266px)/2*/
         border: 1px solid #222A35;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     .sual1 .a,.b,.c{
         width: 30px;
         height: 30px;
-        background-color: red;
+        background-color: #222A35;
         text-align: center;
         padding-top: 2px;
         margin-left: 20px;
@@ -1002,7 +1065,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid wheat;
+        border: 1px solid #222A35;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -1013,11 +1076,13 @@
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        height: auto;
+        width: 186px;
     }
     .sual1 .problem{
         /*background-color: orangered;*/
         height: 50px;
-        width: 260px;
+        width: 246px;
         margin-left: 10px;
         margin-right: 10px;
         word-wrap: break-word;
@@ -1025,11 +1090,11 @@
     
     
     .sual2{
-        background-color: #222A35;
+        /*background-color: #222A35;*/
         width: 266px;
         height: /*280px*/auto;
-        position: absolute;
-        top: /*760*/660px;/*470+80+20*/
+        position: relative;
+        top: /*760*//*660px;*/155px;/*470+80+20*/
         left: calc(50% - 133px);/*(100% - 266px)/2*/
         border: 1px solid #222A35;
         border-radius: 20px;
@@ -1037,7 +1102,7 @@
     .sual2 .a,.b,.c{
         width: 30px;
         height: 30px;
-        background-color: red;
+        background-color: #222A35;
         text-align: center;
         padding-top: 2px;
         margin-left: 20px;
@@ -1049,7 +1114,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid wheat;
+        border: 1px solid #222A35;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -1060,6 +1125,7 @@
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        width: 186px;
     }
     .sual2 .problem{
         /*background-color: orangered;*/
@@ -1071,19 +1137,19 @@
     }
     
     .sual3{
-        background-color: #222A35;
+        /*background-color: #222A35;*/
         width: 266px;
         height: /*280px*/auto;
-        position: absolute;
-        top: /*1090*/990px;/*470+80+20*/
+        position: relative;
+        top: /*1090*//*990px;*/190px;/*470+80+20*/
         left: calc(50% - 133px);/*(100% - 266px)/2*/
         border: 1px solid #222A35;
-        border-radius: 20px;
+        border-radius: 10px;
     }
-    .sual3 .a,.b,.c{
+    .sual3 .a,.sual3 .b,.sual3 .c{
         width: 30px;
         height: 30px;
-        background-color: red;
+        background-color: #222A35;
         text-align: center;
         padding-top: 2px;
         margin-left: 20px;
@@ -1095,7 +1161,7 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid wheat;
+        border: 1px solid #222A35;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
@@ -1106,6 +1172,8 @@
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
+        height: auto;
+        width: 186px;
     }
     .sual3 .problem{
         /*background-color: orangered;*/

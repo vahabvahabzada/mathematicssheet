@@ -30,6 +30,7 @@ export default function Header(){
             setSanwichStatus(sandwichClicked+1);
             document.querySelector(".sandwichMenuCategory").style.display="none";
             document.querySelector(".kurslar").style.display="none";
+            setKursYazisi("Courses ^");/*bu hisseni ele etmek lazimidi ki sandwich menu yigilan kimi naxado yazini deyisdirsin*/
         }
     }
     return <div className="header">
