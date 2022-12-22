@@ -1,12 +1,17 @@
+*{
+    box-sizing: border-box;
+}
 .bodyabout{
     width: 100%;
     height: 1000px;
     position: relative;
+    background-color: aliceblue;
 }
 .photo{
     width: 350px;
     height: 350px;
-    background-color: greenyellow;
+    /*background-color: greenyellow;*/
+    background-image: url("../../assets/mathpic350.png");
     border-radius: 50%;
     position: absolute;
     left: calc(50% - 175px);
@@ -20,5 +25,90 @@ article{
     left: 10%;/*(100%-80%)/2*//*calc(50% - 300px);*//*(100%-600px)/2*/
     font-size: /*32px*/42px;
     color: #222A35;
+    text-align: center;
 }
 /*media query-ler yazib responsive etmeklazimdi*/
+@media(max-width:711px){
+    .bodyabout{
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        background-color: aliceblue;
+    }
+    .photo{
+        width: 300px;
+        height: 300px;
+        /*background-color: greenyellow;*/
+        background-image: url("../../assets/mathpic300.png");
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 150px);
+        top: /*30px*/100px;/*1000px-*/
+    }
+    article{
+        width: /*600px*/80%;
+        /*background-color: olive;*/
+        position: absolute;
+        top: 500px;
+        left: 10%;/*(100%-80%)/2*//*calc(50% - 300px);*//*(100%-600px)/2*/
+        font-size: /*32px*//*42px*/36px;
+        color: #222A35;
+        text-align: center;
+    }
+}
+@media(max-width:536px){
+    .bodyabout{
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        background-color: aliceblue;
+    }
+    .photo{
+        width: 250px;
+        height: 250px;
+        /*background-color: greenyellow;*/
+        background-image: url("../../assets/mathpic250.png");
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 125px);
+        top: /*30px*/100px;/*1000px-*/
+    }
+    article{
+        width: /*600px*/80%;
+        /*background-color: olive;*/
+        position: absolute;
+        top: 500px;
+        left: 10%;/*(100%-80%)/2*//*calc(50% - 300px);*//*(100%-600px)/2*/
+        font-size: /*32px*//*42px*/28px;
+        color: #222A35;
+        text-align: center;
+    }
+}
+@media(max-width:368px){
+    .bodyabout{
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        background-color: aliceblue;
+    }
+    .photo{
+        width: 200px;
+        height: 200px;
+        /*background-color: greenyellow;*/
+        background-image: url("../../assets/mathpic200.png");
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 100px);
+        top: /*30px*/100px;/*1000px-*/
+    }
+    article{
+        width: /*600px*/80%;
+        /*background-color: olive;*/
+        position: absolute;
+        top: /*500px*/450px;
+        left: 10%;/*(100%-80%)/2*//*calc(50% - 300px);*//*(100%-600px)/2*/
+        font-size: /*32px*//*42px*/26px;
+        color: #222A35;
+        text-align: center;
+    }
+}

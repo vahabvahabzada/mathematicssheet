@@ -1,64 +1,70 @@
 /*max 990 px -den baslayaraq(>=90px)*/
 @media(min-width:990px){
-.body{
-    width: 100%;
-    height: /*2000*//*1700*/1600px;
-    position: relative;
-}
-.info1{
-    position: relative;
-}
-.info1 h1{
-    /*background-color: blueviolet;*/
-    width: 470px;
-    height: 50px;
-    position: absolute;
-    top: 50px;
-    left: calc(50% - 235px);/*(100% - 470px)/2*/
-}
-.info1 #i1{
-    /*background-color: green;*/
-    width:400px;
-    height: 350px;
-    position: absolute;
-    top: 250px;
-    left: 50px;
-}
-.info1 #i2{
-    /*background-color: red;*/
-    width: 400px;
-    height: 420px;
-    position: absolute;
-    top: 300px;
-    right: 50px;
-}
-.info1 #i3{
-    /*background-color: yellow;*/
-    width: 400px;
-    height: 420px;
-    position: absolute;
-    top: /*600*//*650*/800px;
-    left: calc(50% - 200px);/*(100% - 400px)/2*/
-}
-.info2 h1{
-    /*background-color: orangered;*/
-    width: 220px;
-    position: absolute;
-    top: 1280px;
-    left: calc(50% - 110px);/*(100% - 220px)/2*/
-}
-.info2 p{
-    /*background-color: chartreuse;*/
-    font-size: 32px;
-    width: 880px;
-    height: 50px;
-    position: absolute;
-    left: calc(50% - 440px);/*(100% - 880px)/2*/
-    top: 1400px;
-}
-}
-
-@media(max-width:990px){
-}
-@media(max-width:768px){
-}
+    .body{
+        width: 100%;
+        height: /*2000*//*1700*/1600px;
+        position: relative;
+    }
+    .info1{
+        position: relative;
+    }
+    .info1 h1{
+        /*background-color: blueviolet;*/
+        width: 470px;
+        height: 50px;
+        position: absolute;
+        top: 50px;
+        left: calc(50% - 235px);/*(100% - 470px)/2*/
+    }
+    .info1 #i1{
+        /*background-color: green;*/
+        width:400px;
+        height: 350px;
+        position: absolute;
+        top: 250px;
+        left: 50px;
+    }
+    .info1 #i2{
+        /*background-color: red;*/
+        width: 400px;
+        height: 420px;
+        position: absolute;
+        top: 300px;
+        right: 50px;
+    }
+    .info1 #i3{
+        /*background-color: yellow;*/
+        width: 400px;
+        height: 420px;
+        position: absolute;
+        top: /*600*//*650*/800px;
+        left: calc(50% - 200px);/*(100% - 400px)/2*/
+    }
+    .info2 h1{
+        /*background-color: orangered;*/
+        width: 220px;
+        position: absolute;
+        top: 1280px;
+        left: calc(50% - 110px);/*(100% - 220px)/2*/
+    }
+    .info2 p{
+        /*background-color: chartreuse;*/
+        font-size: 32px;
+        width: 880px;
+        height: 50px;
+        position: absolute;
+        left: calc(50% - 440px);/*(100% - 880px)/2*/
+        top: 1400px;
+    }
+    }
+    
+    @media(max-width:990px){
+        .body{
+            padding: 10px;
+        }
+        .info2 h1{
+            font-size: 24px;
+        }
+    }
+    @media(max-width:768px){
+    }

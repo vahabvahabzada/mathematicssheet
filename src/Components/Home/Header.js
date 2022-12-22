@@ -4,33 +4,33 @@ import "./header.css";
 //import lupa from "../../lupa.png";
 export default function Header(){
     const [kursClicked,setClick]=useState(0);
-    const [kursYazisi,setKursYazisi]=useState("Courses ^");
+    const [kursYazisi,setKursYazisi]=useState("Courses \u25BC");
     const [sandwichClicked,setSanwichStatus]=useState(0);
     const clickHandler=()=>{
-        /*kursClicked ? setClick(false):setClick(true);
-        console.log("works");*/
         if(kursClicked%2===0){
             setClick(kursClicked+1);
             document.querySelector(".kurslar").style.display="block";
-            setKursYazisi("Courses v");
+            setKursYazisi("Courses \u25B2");
         }
         else{
             setClick(kursClicked+1);
             document.querySelector(".kurslar").style.display="none";
-            setKursYazisi("Courses ^");
+            setKursYazisi("Courses \u25BC");
         }
     }
+
 
     const sandwichHandler=()=>{
         if(sandwichClicked%2===0){
             setSanwichStatus(sandwichClicked+1);
             document.querySelector(".sandwichMenuCategory").style.display="block";
+            document.querySelector(".kurslar").style.display="none";
         }
         else{
             setSanwichStatus(sandwichClicked+1);
+            //setSanwichStatus(0);/*esas hell,en teze yazdim*/
             document.querySelector(".sandwichMenuCategory").style.display="none";
             document.querySelector(".kurslar").style.display="none";
-            setKursYazisi("Courses ^");/*bu hisseni ele etmek lazimidi ki sandwich menu yigilan kimi naxado yazini deyisdirsin*/
         }
     }
     return <div className="header">

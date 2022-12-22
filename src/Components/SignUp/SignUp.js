@@ -3,6 +3,7 @@ import KursSec from "../Home/KursSec";
 import Header from "../Home/Header";
 import Footer from "../Home/Footer";
 import "./signup.css"
+import { Link } from "react-router-dom";
 export default function SignUp(){
     return (<div className="signup">
         <MenuCategory/>
@@ -14,19 +15,20 @@ export default function SignUp(){
             <h1>Sign Up</h1>
             <p id="signupmessage">Sign into your account</p>
             <form>
-            <label for="email" className="email">
+            <div className="email">
                 <input type="email" placeholder="Email address"/>
-            </label>
-            <label for="password" className="password">
+            </div>
+            <div className="password">
                 <input type="password" placeholder="Password"/>
-            </label>
+            </div>
+            <p id="alreadyhave">Already have an account?<Link to="/login">Login</Link></p>
             </form>
             <button type="submit" id="signupbutton">Sign Up</button>
             <p id="continue">...or continue with...</p>
             <div id="signupwith">
-                <div id="facebook"></div>
-                <div id="twitter"></div>
-                <div id="google"></div>
+                <a href="https://accounts.google.com/"><div id="google"></div></a>
+                <a href="https://facebook.com"><div id="facebook"></div></a>
+                <a href="https://apple.com"><div id="apple"></div></a>
             </div>
         </div>
     </div>

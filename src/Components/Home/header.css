@@ -18,7 +18,7 @@ body{
     overflow: hidden;
 }
 .menubar{
-    width: 100%;
+    width: /*100*/80%;
     height: 160px;
     display: flex;
     justify-content: space-around;
@@ -26,6 +26,7 @@ body{
     position: absolute;
     top:20px;/*(200-160)/2*/
     /*background-color: red;*/
+    left: 10%;/*(100%-80%)/2*/
 }
 #logo{
     width: 160px;
@@ -66,7 +67,7 @@ body{
     color: antiquewhite;
 }
 .header p:hover{
-    color: #E5CD77;
+    color: /*#E5CD77*/turquoise;
     cursor: pointer;
 }
 .header a{

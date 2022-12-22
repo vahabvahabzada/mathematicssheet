@@ -15,7 +15,7 @@
     position: relative;
     width: 100%;
     height: /*420*//*1580px*//*1730px*/1800px;
-    background-color: /*#E5CD77*//*#cbd3de*/antiquewhite;
+    background-color: /*#E5CD77*//*#cbd3de*/aliceblue;
 }
 .videoChart iframe{
     position: /*absolute*/relative;
@@ -73,7 +73,7 @@
     text-align: center;
     padding-top: 2px;
     margin-left: 20px;
-    cursor: pointer;
+    /*cursor: pointer;*/
     border-radius: 50%;
 }
 .sual1 div{
@@ -86,9 +86,10 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 8px;
+    cursor: pointer;
 }
 .sual1 .answera,.sual1 .answerb,.sual1 .answerc{
-    background-color: cadetblue;/* burda qalmisam*/
+    /*background-color: cadetblue;*/
     margin-left: 10px;
     padding-top: 2px;
     width: /*500px*/700px;
@@ -102,7 +103,6 @@
     margin-left: 10px;
     margin-right: 10px;
 }
-
 
 .sual2{
     /*background-color: #222A35;*/
@@ -123,7 +123,7 @@
     text-align: center;
     padding-top: 2px;
     margin-left: 20px;
-    cursor: pointer;
+    /*cursor: pointer;*/
     border-radius: 50%;
 }
 .sual2 div{
@@ -136,9 +136,10 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 8px;
+    cursor: pointer;
 }
 .sual2 .answera, .sual2 .answerb, .sual2 .answerc{
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     text-align: center;
     margin-left: 10px;
     padding-top: 2px;
@@ -172,7 +173,7 @@
     text-align: center;
     padding-top: 2px;
     margin-left: 20px;
-    cursor: pointer;
+    /*cursor: pointer;*/
     border-radius: 50%;
 }
 .sual3 div{
@@ -185,6 +186,7 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 8px;
+    cursor: pointer;
 }
 .sual3 .answera,.answerb,.answerc{
     /*background-color: cadetblue;*/
@@ -202,6 +204,7 @@
     margin-right: 10px;
 }
 
+
 @media(max-width:891px){
     .videoBody{
         width: 100%;
@@ -215,8 +218,8 @@
     .videoChart{
         position: relative;
         width: 100%;
-        height: /*420*//*1500*/1800px;
-        background-color: /*#E5CD77*//*#cbd3de*//*black*/antiquewhite;
+        height: /*420*//*1500*//*1800px;*/1600px;
+        background-color: /*#E5CD77*//*#cbd3de*//*black*/aliceblue;
     }
     .videoChart iframe{
         position: relative;
@@ -279,14 +282,14 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid wheat;
+        border: 1px solid #222A35;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
         margin-bottom: 8px;
     }
     .sual1 .answera,.sual1 .answerb,.sual1 .answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         margin-left: 10px;
         padding-top: 2px;
         text-align: center;
@@ -300,7 +303,6 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-    
 
     .sual2{
         /*background-color: #222A35;*/
@@ -328,14 +330,14 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid wheat;
+        border: 1px solid #222A35;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
         margin-bottom: 8px;
     }
     .sual2 .answera,.sual2 .answerb,.sual2 .answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         margin-left: 10px;
         padding-top: 2px;
         height: auto;
@@ -376,14 +378,14 @@
         display: flex;
         margin-top: 2px;
         /*border-radius: 10px;*/
-        border: 1px solid wheat;
+        border: 1px solid #222A35;
         border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
         margin-bottom: 8px;
     }
     .sual3 .answera,.sual3 .answerb,.sual3 .answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         margin-left: 10px;
         padding-top: 2px;
         height: auto;
@@ -398,6 +400,8 @@
         margin-right: 10px;
     }
 }
+
+
 @media(max-width:675px){
     .videoBody{
         width: 100%;
@@ -410,8 +414,8 @@
     .videoChart{
         position: relative;
         width: 100%;
-        height: /*420*//*1420*/1800px;
-        background-color: /*#E5CD77*//*#cbd3de*/antiquewhite;
+        height: /*420*//*1420*//*1800px*/1500px;
+        background-color: /*#E5CD77*//*#cbd3de*/aliceblue;
     }
     .videoChart iframe{
         position: relative;
@@ -484,7 +488,7 @@
         margin-bottom: 8px;
     }
     .sual1 .answera,.sual1 .answerb,.sual1 .answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
@@ -499,8 +503,7 @@
         margin-right: 10px;
         /*margin-top: 15px;*/
     }
-    
-    
+     
     .sual2{
         /*background-color: #222A35;*/
         width: 400px;
@@ -534,7 +537,7 @@
         margin-bottom: 8px;
     }
     .sual2 .answera,.sual2 .answerb,.sual2 .answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
@@ -581,7 +584,7 @@
         margin-bottom: 8px;
     }
     .sual3 .answera,.sual3 .answerb,.sual3 .answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
@@ -609,8 +612,8 @@
     .videoChart{
         position: relative;
         width: 100%;
-        height: /*420*//*1340*/1800px;
-        background-color: /*#E5CD77*//*#cbd3de*/antiquewhite;
+        height: /*420*//*1340*//*1800px*/1450px;
+        background-color: /*#E5CD77*//*#cbd3de*/aliceblue;
     }
     .videoChart iframe{
         position: relative;
@@ -680,7 +683,7 @@
         margin-bottom: 8px;
     }
     .sual1 .answera,.sual1 .answerb,.sual1 .answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
@@ -695,8 +698,7 @@
         margin-right: 10px;
         /*word-wrap: break-word;*/
     }
-    
-    
+     
     .sual2{
         /*background-color: #222A35;/*whitesmoke*/
         width: /*280px*/350px;
@@ -731,7 +733,7 @@
         margin-bottom: 8px;
     }
     .sual2 .answera,.sual2 .answerb,.sual2 .answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
@@ -781,7 +783,7 @@
         margin-bottom: 8px;
     }
     .sual3 .answera,.sual3 .answerb,.sual3 .answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
@@ -797,6 +799,8 @@
         word-wrap: break-word;
     }
 }
+
+
 @media(max-width:/*281*/359px/*371px*/){
     .videoBody{
         width: 100%;
@@ -809,8 +813,8 @@
     .videoChart{
         position: relative;
         width: 100%;
-        height: /*420*//*1340px*/1600px;
-        background-color: /*#cbd3de*/antiquewhite;
+        height: /*420*//*1340px*/1400px;
+        background-color: /*#cbd3de*/aliceblue;
     }
     .videoChart iframe{
         position: relative;
@@ -878,7 +882,7 @@
         margin-bottom: 8px;
     }
     .sual1 .answera,.answerb,.answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
@@ -894,7 +898,6 @@
         word-wrap: break-word;
         font-size: 15px;
     }
-    
     
     .sual2{
         /*background-color: #222A35;*/
@@ -928,7 +931,7 @@
         margin-bottom: 8px;
     }
     .sual2 .answera,.answerb,.answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
@@ -975,7 +978,7 @@
         margin-bottom: 8px;
     }
     .sual3 .answera,.answerb,.answerc{
-        background-color: cadetblue;
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
@@ -992,6 +995,8 @@
         font-size: 15px;
     }
 }
+
+
 @media(max-width:/*281px*/316px){
     .videoBody{
         width: 100%;
@@ -1004,8 +1009,8 @@
     .videoChart{
         position: relative;
         width: 100%;
-        height: /*420*//*1340*/1500px;
-        background-color: /*#cbd3de*/antiquewhite;
+        height: /*420*//*1340*/1350px;
+        background-color: /*#cbd3de*/aliceblue;
     }
     .videoChart iframe{
         position: relative;
@@ -1071,8 +1076,8 @@
         margin-right: 5px;
         margin-bottom: 8px;
     }
-    .sual1 .answera,.answerb,.answerc{
-        background-color: cadetblue;
+    .sual1 .answera,.sual1 .answerb,.sual1 .answerc{
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
@@ -1088,7 +1093,6 @@
         word-wrap: break-word;
     }
     
-    
     .sual2{
         /*background-color: #222A35;*/
         width: 266px;
@@ -1097,7 +1101,7 @@
         top: /*760*//*660px;*/155px;/*470+80+20*/
         left: calc(50% - 133px);/*(100% - 266px)/2*/
         border: 1px solid #222A35;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     .sual2 .a,.b,.c{
         width: 30px;
@@ -1120,8 +1124,8 @@
         margin-right: 5px;
         margin-bottom: 8px;
     }
-    .sual2 .answera,.answerb,.answerc{
-        background-color: cadetblue;
+    .sual2 .answera,.sual2 .answerb,.sual2 .answerc{
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;
@@ -1167,8 +1171,8 @@
         margin-right: 5px;
         margin-bottom: 8px;
     }
-    .sual3 .answera,.answerb,.answerc{
-        background-color: cadetblue;
+    .sual3 .answera,.sual3 .answerb,.sual3 .answerc{
+        /*background-color: cadetblue;*/
         text-align: center;
         margin-left: 10px;
         padding-top: 2px;

@@ -4,19 +4,19 @@ import { useState } from "react";
 /*import KursSec from "./KursSec";*/
 export default function MenuCategory(){
     const [kursClicked,setClick]=useState(0);
-    const [kursYazisi,setKursYazisi]=useState("Courses ^");
+    const [kursYazisi,setKursYazisi]=useState("Courses \u25BC");
     const clickHandler=()=>{
         /*kursClicked ? setClick(false):setClick(true);
         console.log("works");*/
         if(kursClicked%2===0){
             setClick(kursClicked+1);
             document.querySelector(".kurslar").style.display="block";
-            setKursYazisi("Courses v");
+            setKursYazisi("Courses \u25B2");
         }
         else{
             setClick(kursClicked+1);
             document.querySelector(".kurslar").style.display="none";
-            setKursYazisi("Courses ^");
+            setKursYazisi("Courses \u25BC");
         }
     }
     return(

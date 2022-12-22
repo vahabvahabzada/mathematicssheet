@@ -7,7 +7,7 @@
     background-color: #222A35;
 }
 .footer .mission{
-    color: #E5CD77;
+    color: /*#E5CD77*/turquoise;
     width: 400px;
     height: 100px;
     font-size: 18px;
@@ -46,28 +46,19 @@
 .footer .social #insta{
     background: url("../../assets/insta.png");
 }
-.footer .social #insta:hover{
-    /*background-color: #ebc94f;*/
-    border: 1px solid #E5CD77;
-}
+
 .footer .social #face{
     background: url("../../assets/facebook.png");
 }
-.footer .social #face:hover{
-    /*background-color: #ebc94f;*/
-    border: 1px solid #E5CD77;
-}
+
 .footer .social #linkedin{
     background: url("../../assets/linkedin.png");
 }
-.footer .social #linkedin:hover{
-    /*background-color: #E5CD77;*/
-    border: 1px solid #E5CD77;
-}
+
 .footer .social div{
     width: 50px;
     height: 50px;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 .footer .social /*img*/div:hover{
     background-color: #E5CD77;
@@ -92,8 +83,9 @@
         position: absolute;
         /*top: 0px;*/
         right: calc(50% - 100px);/*(100%-200px)/2*/
-        color: #E5CD77;
+        color: /*#E5CD77*/turquoise;
         font-size: 15px;
+        top:8px;
     }
     .ending{
         /*background-color: red;*/
@@ -123,7 +115,7 @@
     .social div{
         width: 20px;
         height: 21px;
-        background-color: aqua;
+        /*background-color: aqua;*/
     }
     .footer .social #insta{
         background: url("../../assets/instasmall.png");
